@@ -1,12 +1,36 @@
-# React + Vite
+# ShopSphere
+A React e-commerce web app where users can browse products, add to cart. Built with React, Tailwind CSS, and LocalStorage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+[Try it here](https://shopsphere-eight-hazel.vercel.app/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse products by category
+- Search Products 
+- Filter products by category
+- Add items to cart (saved in LocalStorage)
+- Cart badge shows item count
+- toasts
+- Responsive design for mobile & desktop
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tech Stack
+- React
+- Tailwind CSS
+- React Icons
+- LocalStorage
+
+
+## How to Run Locally
+1. Clone the repo: `git clone https://github.com/mohit98k/shopsphere.git`
+2. Install dependencies: `npm install`
+3. Run the app: `npm run dev` (if using Vite) or `npm start` (if CRA)
+
+
+## Future Improvements
+- Integrate real payment gateway
+- Backend for storing orders
+- Product search & filters enhancement
+- Product pages 
